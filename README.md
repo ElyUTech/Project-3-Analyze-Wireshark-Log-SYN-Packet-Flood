@@ -3,7 +3,13 @@
 ## Objective:
 Examine the web server's logs to investigate connection timeout error messages.
 
-## Part 1: Scenario
+## Security Concepts:
+Network Troubleshooting and Diagnostics, Network Packet Capture and Analysis, Incident Response and Forensics Basics, Threat Intelligence
+
+## Tools Used:
+Wireshark
+
+## Scenario
 You work as a security analyst for a travel agency that advertises sales and promotions on the company’s website. The employees of the company regularly access the company’s sales webpage to search for vacation packages their customers might like.
 
 One afternoon, you receive an automated alert from your monitoring system indicating a problem with the web server. You attempt to visit the company’s website, but you receive a connection timeout error message in your browser.
@@ -13,9 +19,9 @@ You use a packet sniffer to capture data packets in transit to and from the web 
 You take the server offline temporarily so that the machine can recover and return to a normal operating status. You also configure the company’s firewall to block the IP address that was sending the abnormal number of SYN requests. You know that your IP blocking solution won’t last long, as an attacker can spoof other IP addresses to get around this block. You need to alert your manager about this problem quickly and discuss the next steps to stop this attacker and prevent this problem from happening again. You will need to be prepared to tell your boss about the type of attack you discovered and how it was affecting the web server and employees.
 
 
-## Part 2: Wireshark TCP HTTP Log
+## Part 1: Wireshark TCP HTTP Log
 ![alt](https://github.com/ElyUTech/Project-3-Analyze-Wireshark-Log-SYN-Packet-Flood-/blob/main/project-3a-syn-packet-flood-wireshark-tcp-http-log.png)
 
 
-## Part 3: Incident Report
+## Part 2: Incident Report
 ![alt](https://github.com/ElyUTech/Project-3-Analyze-Wireshark-Log-SYN-Packet-Flood-/blob/main/project-3b-syn-packet-flood-cybersecurity-incident-report.png)
